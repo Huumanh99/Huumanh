@@ -15,6 +15,8 @@ namespace Nguyenmanh_lab456.Models
         [Required]
         [StringLength(255)]
         public string Place { get; set; }
+        public string Date { get; set; }
+        public string Time { get; set; }
         public DateTime DateTime { get; set; }
         public Category Category { get; set; }
         [Required]
